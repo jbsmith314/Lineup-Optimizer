@@ -20,7 +20,7 @@ while True:
 
     except FileNotFoundError:
         print("\nInvalid file name")
-        print("Example input: 2024 Day 2 Data.txt")
+        print("Example input: example.txt")
         print("Also, the file must be in the Documents folder\n")
 
 # projected points for females and males
