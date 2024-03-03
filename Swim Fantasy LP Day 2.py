@@ -21,7 +21,7 @@ while True:
     except FileNotFoundError:
         print("\nInvalid file name")
         print("Example input: example.txt")
-        print("Also, the file must be in the Documents folder\n")
+        print("Also, the file must be in the same folder as this file\n")
 
 # projected points for females and males
 female_projected_points = [data[0]]
