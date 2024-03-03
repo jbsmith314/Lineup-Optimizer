@@ -20,7 +20,7 @@ It was hard to create all of the variables and constraints at runtime, so that f
 
 1. Download the two python files and text file and place them in the same folder
 2. Run `Swim Fantasy LP.py` to see an example output of the solver (optional)
-3. Run `Swim Fantasy LP Day 2.py` and enter example.txt when prompted for an input file
+3. Run `Swim Fantasy LP Day 2.py` and enter `example.txt` when prompted for an input file
 
 ## Understanding the Output
 
