@@ -10,7 +10,7 @@ q = [0, 42, 33, 33, 32, 32, 31, 29, 27, 26, 25, 25, 25, 25, 25, 24, 24, 23, 23, 
 # get mip solver 
 solver = pywraplp.Solver.CreateSolver("SAT")
 if not solver:
-    print("poop")
+    print("Error generating linear program solver")
 
 # declare decision variables
 x1 = solver.IntVar(0, 1, 'x1')
