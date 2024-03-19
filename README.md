@@ -28,6 +28,10 @@ It was hard to create all of the variables and constraints at runtime, so that f
 
 The number to the right of the lineup is the projected points of that lineup, and the number to the left of each lineup in parentheses is the actual points scored by that lineup (if it's a previous gameday that the program is being tested on). The number on the final line of the output is the highest number out of all of the actual points scored values from all of the lineups listed.
 
+## Future Direction
+
+The next step be making another option for the solver to optimize lineups for the overall competition. This will mean making one big integer program where there are decision variables on whether or not to choose each swimmer for each day of the meet, with all of the same constraints as the single day integer program, along with a constraint for the number of swimmer switches that can be done throughout the whole meet.
+
 ## More Information
 
 * [World Aquatics Swim Fantasy Game](https://swimming-fantasygame.com/#/welcome/login)
